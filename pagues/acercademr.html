@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acercademr</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <!---Etiqueta que refiere a una barra de navegaci[on]-->
+          <ul class="menu">
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="./servicios.html">SERVICIOS</a></li>
+            <li><a href="./productos.html">PRODUCTOS</a></li>
+            <li><a href="#">ACERCA DE MR</a></li>
+            <li><a href="./blog.html">BLOG</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>Inteligencia Digital sin Fronteras​</h1>
+        <section>
+         <p>Contamos con más de 18 años en el mercado, ofreciendo soluciones digitales adaptables de alta calidad en América Latina, Estados Unidos y Europa.
+          Nuestro equipo de más de 550 colaboradores ha contribuido a construir una trayectoria exitosa, llevando a nuestros clientes a transformar sus procesos a través de la tecnología.
+          .</p>
+        </section>
+
+    </main>
+    <footer>
+      <button id="mostrarFormulario" class="boton-estilo" style="color: #FEECE2; background-color: #535C91;">Contáctenos</button>
+      <form id="formularioContacto" style="display: none;">
+          <!-- Aquí colocas los campos de tu formulario -->
+          Nombre: <input type="text" name="nombre"><br>
+          Correo electrónico: <input type="email" name="email"><br>
+          Mensaje: <textarea name="mensaje"></textarea><br>
+          <input type="submit" value="Enviar">
+      </form>
+
+      <a href="https://www.facebook.com/">
+        <img src="./img/imagenfacebook.png" alt="Descripción de la imagen">
+    </a>
+      
+  </footer>
+
+  
+  <script>
+    document.getElementById("mostrarFormulario").addEventListener("click", function() {
+        document.getElementById("formularioContacto").style.display = "block";
+    });
+</script>
+      
+</body>
+</html>

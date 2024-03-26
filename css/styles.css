@@ -1,0 +1,224 @@
+h1 {
+    color: rgb(215, 207, 223);
+    font-size: 36px;
+}
+
+p{
+    color:bisque;
+}
+body{
+  
+    background-image: url(https://www.shutterstock.com/image-photo/laptop-half-closed-dark-colourful-260nw-2300146017.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menu{
+list-style: none;
+padding: 0;
+width: 90%;
+max-width: 10000px;
+margin: auto;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #ef8354;
+}
+
+main{
+  height: 500px;
+  text-align: center;
+  padding-top: 230px;
+}
+
+img{
+    width: 50px;
+}
+
+.boton-estilo{
+    height: 70px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ef9acc;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: #FEECE2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #c81ba0;
+}
+
+footer {
+    background-color: #ef9acc;
+    color: #FEECE2;
+    padding: 20px;
+    text-align: center;
+}
+
+.boton-estilo {
+    background-color: #535C91;
+    border: none;
+    color: #FEECE2;
+    padding: 20px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 7px 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.boton-estilo:hover {
+    background-color: #3c043f;
+}
+
+/* Estilos adicionales para hacer la imagen del botón más pequeña en dispositivos móviles */
+@media screen and (max-width: 600px) {
+    .boton-estilo img {
+        width: 80px;
+        height: auto;
+    }
+}
+
+/* Estilos adicionales para hacer que el encabezado sea más grande en dispositivos móviles */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+}
+
+#formularioContacto {
+    display: none; 
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center; /* Alinea los elementos flexibles en el centro horizontalmente */
+}
+
+
+.menu li {
+    display: flex;
+    align-items: center; /* Alinea los elementos flexibles verticalmente al centro */
+    margin: 0 10px; /* Ajusta el margen entre los elementos */
+}
+
+
+.menu li a {
+    color: #FEECE2;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+/* Ajusta el tamaño del botón estilo y centra su contenido */
+.boton-estilo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px; /* Ajusta el ancho del botón según tu preferencia */
+    height: 50px; /* Ajusta la altura del botón según tu preferencia */
+    margin: 0 10px; /* Ajusta el margen entre los botones */
+}
+
+/* Estilos adicionales para hacer la imagen del botón más pequeña en dispositivos móviles */
+@media screen and (max-width: 600px) {
+    .boton-estilo img {
+        width: 80px;
+        height: auto;
+    }
+}
+
+/* Añade display:flex al contenedor que quieres flexibilizar */
+.menu {
+    display: flex;
+    justify-content: center; /* Alinea los elementos flexibles en el centro horizontalmente */
+}
+
+
+.menu li {
+    display: flex;
+    align-items: center; /* Alinea los elementos flexibles verticalmente al centro */
+    margin: 0 10px; /* Ajusta el margen entre los elementos */
+}
+
+/* Elimina display:block y ajusta el padding en los elementos de la lista */
+.menu li a {
+    color: #FEECE2;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+/* Ajusta el tamaño del botón estilo y centra su contenido */
+.boton-estilo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px; /* Ajusta el ancho del botón  */
+    height: 50px; /* Ajusta la altura del botón  */
+    margin: 0 10px; /* Ajusta el margen entre los botones */
+}
+
+/* Estilos adicionales para hacer la imagen del botón más pequeña en dispositivos móviles */
+@media screen and (max-width: 600px) {
+    .boton-estilo img {
+        width: 80px;
+        height: auto;
+    }
+}
+
+/* Estilos adicionales para hacer que el encabezado sea más grande en dispositivos móviles */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+}
+
+#formularioContacto {
+    display: none; 
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+}
+
+#formularioContacto {
+    display: none; 
+}
