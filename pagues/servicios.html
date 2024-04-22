@@ -28,21 +28,40 @@
           </section>
  
       </main>
-      <footer>
-        <button id="mostrarFormulario" class="boton-estilo" style="color: #FEECE2; background-color: #535C91;">Contáctenos</button>
-        <form id="formularioContacto" style="display: none;">
-            <!-- Aquí colocas los campos de tu formulario -->
-            Nombre: <input type="text" name="nombre"><br>
-            Correo electrónico: <input type="email" name="email"><br>
-            Mensaje: <textarea name="mensaje"></textarea><br>
-            <input type="submit" value="Enviar">
-        </form>
-  
-        <a href="https://www.facebook.com/">
-          <img src="../img/imagenfacebook.png" alt="Descripción de la imagen">
-      </a>
-        
-    </footer>
+      <footer class="bg-dark text-white py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <!-- Botón de contacto -->
+              <button id="mostrarFormulario" class="btn btn-primary boton-estilo">Contáctenos</button>
+              <!-- Formulario de contacto (oculto inicialmente) -->
+              <form id="formularioContacto" style="display: none;">
+                <!--  los campos de tu formulario -->
+                <div class="form-group">
+                  <label for="nombre" class="text-white">Nombre:</label>
+                  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+                </div>
+                <div class="form-group">
+                  <label for="email" class="text-white">Correo electrónico:</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Ingrese su correo electrónico">
+                </div>
+                <div class="form-group">
+                  <label for="mensaje" class="text-white">Mensaje:</label>
+                  <textarea class="form-control" id="mensaje" name="mensaje" rows="3" placeholder="Ingrese su mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+            </div>
+            <div class="col-md-6">
+              <!-- Enlace a la página de Facebook -->
+              <a href="https://www.facebook.com/" class="text-white">
+                <img src="../img/imagenfacebook.png" alt="Descripción de la imagen">
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
   
     
     <script>
